@@ -2,13 +2,15 @@ body {
 	margin: 0;
 	padding: 0;
 	font-family: poppins;
-	background-image: url ("blackmountainlogo-MREG.jpg");
+	background-image: url('https://lp-cms-production.imgix.net/features/2019/05/RockMountains_roadtrip-b99fb8fa595c.jpg') ;
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
 	height: 100vh;
 }
+
+/* navbar*/
 a {
 	font-size: 17px;
 	text-transform: uppercase;
@@ -88,7 +90,7 @@ a {
 }
 
 .child1{
-    background:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("https://cdn.pixabay.com/photo/2019/06/28/00/17/architecture-4303279_1280.jpg");
+    background:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("https://peakvisor.com/img/news/southern-rocky-mountains.jpg");
     background-size:cover;
     display:flex;
     flex-direction:column;
@@ -170,4 +172,10 @@ a {
     .inside-contact input, .inside-contact textarea{
         background-color:#fff;
     }
+}
+
+.footer {
+	
+		position:absolute;
+		bottom:0;			
 }
