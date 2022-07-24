@@ -15,6 +15,8 @@ a {
 }
 .nav-area {
 	background: #262626;
+	float: none;
+	text-align: center;
 
 }
 .nav-area:after {
@@ -26,6 +28,8 @@ a {
 	list-style: none;
 	padding: none;
 	margin: 0;
+	display: inline-block;
+	float: none;
 }
 
 .nav-area>ul>li {
