@@ -174,8 +174,33 @@ a {
     }
 }
 
-.footer {
-	
-		position:absolute;
-		bottom:0;			
+
+/* coming soon page*/
+
+h2 {
+    font-size: 60px;
+    letter-spacing: 15px;
+    text-align: center;
+    margin-top:5%
+
 }
+
+h3 {
+    font-size: 40px;
+    letter-spacing: 15px;
+    text-align: center;
+    padding: 14%;
+    font-weight: 800;
+    color: whitesmoke;
+
+}
+
+button {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+
+/* footer section */
+
+
