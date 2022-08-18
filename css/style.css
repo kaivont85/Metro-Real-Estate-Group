@@ -2,7 +2,7 @@ body {
 	margin: 0;
 	padding: 0;
 	font-family: poppins;
-	background-image: url('https://lp-cms-production.imgix.net/features/2019/05/RockMountains_roadtrip-b99fb8fa595c.jpg') ;
+	background-image: url("https://lp-cms-production.imgix.net/features/2019/05/RockMountains_roadtrip-b99fb8fa595c.jpg") ;
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-position: center center;
@@ -179,9 +179,11 @@ a {
 
 h2 {
     font-size: 60px;
+    color: black;
     letter-spacing: 15px;
     text-align: center;
-    margin-top:5%
+    margin-top:5%;
+    font-family:Arial, Helvetica, sans-serif;
 
 }
 
@@ -189,15 +191,27 @@ h3 {
     font-size: 40px;
     letter-spacing: 15px;
     text-align: center;
-    padding: 14%;
+    padding: 10%;
     font-weight: 800;
-    color: whitesmoke;
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
 
 }
 
 button {
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h5 {
+    text-align: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    display: grid;
+    margin-top: -100px;
 }
 
 
