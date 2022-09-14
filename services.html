@@ -6,6 +6,94 @@
 	<title>Metro Real Estate Group</title>
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link href="css/style.css" rel="stylesheet">
+<style>
+	*
+{
+padding: 25px;;
+margin:0;
+}
+body
+{
+overflow-x:hidden;
+font-family:'PT Sans', sans-serif;
+background-color: whitesmoke;
+}
+.section-container
+{
+--bs-gutter-x: 1.5rem;
+--bs-gutter-y: 0;
+display: flex;
+flex-wrap: wrap;
+}
+.section-container .columns
+{
+flex:0 0 auto;
+width:50%;
+}
+.section-container .columns.image
+{
+background-position:center;
+background-repeat:no-repeat;
+background-size:cover;
+}
+.section-container .columns.content .content-container
+{
+padding:40px 50px;
+}
+.section-container .columns.content .content-container h5
+{
+font-weight:700;
+font-size:25px;
+margin-bottom:20px;
+}
+.section-container .columns.content .content-container p
+{
+font-weight:400;
+font-size:16px;
+margin-bottom:20px;
+margin-bottom:15px;
+text-align:justify;
+}
+@media screen and (max-width:767px)
+{
+.section-container
+{
+flex-flow:row wrap;
+}
+.section-container .columns.image{
+display:block;
+order:1;
+width:100%;
+height:250px;
+}
+.section-container .columns.content
+{
+display:block;
+order:2;
+width:100%;
+}
+.section-container .columns.content .content-container
+{
+padding:20px 35px;
+}
+.section-container .columns.content .content-container h5
+{
+margin-bottom:5px;
+}
+}
+
+
+
+
+</style>
+
+
+
+
+
+
+
+
 </head>
 <body>
 	<nav class="nav-area">
@@ -15,55 +103,74 @@
 			</li>
 			<li>
 				<a href="aboutus.html">About Us</a>
-			
-		<ul>
-					<li>
-						<a href="teamconstruct.html">Team Construct</a>
-					</li>
-					<!-- <li>
-						<a href="matttolooee.html">Matt Tolooee</a>
-					</li>
-					<li>
-						<a href="dariushtolooee.html">Dariush Tolooee</a>
-					</li>
-					<li>
-						<a href="allytolooee.html">Ally Tolooee</a> -->
-                    </ul>  
             <li>
                 <a href="coverage.html">Coverage</a>
             </li> 
 			<li>
 				<a href="services.html">Services</a>
-				<ul>
+				<!-- <ul>
 					<li>
-						<a href="#">Brokerage</a>
-                        <ul>
-					        <li>
-						        <a href="metrix.html">Metrix</a>
-					        </li>
-					        <li>
-						        <a href="process.html">Process</a>
-					        </li>
-					        <li>
-						        <a href="successes.html">Successess</a>
-					        </li>
-                        </ul>
+						<a href="brokerage.html">Brokerage</a>
 					<li>
-						<a href="#">Construction</a>
-						<ul>
-							<li>
-								<a href="expertise.html">Expertise</a>
-							</li>
-							<li>
-								<a href="examples.html">Successes</a>
-							</li>	
-				        </ul>
+						<a href="construction.html">Construction</a>
 			</li>
-		</ul>
+		</ul> -->
+		<li>
+            <a href="gallery.html">Gallery</a>
+        </li> 
         <li>
             <a href="contactus.html">Contact Us</a>
         </li> 
 
 	</nav>
 </body>
+<div class="section-container">
+	<div class="columns image" style="background-image:url('images/106Ntejon.jpg')">
+	   &nbsp;
+	</div>
+	<div class="columns content">
+	   <div class="content-container">
+		  <h5>Brokerage</h5>
+		  <p>
+			 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+		  </p>
+		  <p>
+			 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+		  </p>
+	   </div>
+	</div>
+ </div>
+ <div class="section-container">
+	<div class="columns content">
+	   <div class="content-container">
+		  <h5>Construction</h5>
+		  <p>
+			 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+		  </p>
+		  <p>
+			 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+		  </p>
+	   </div>
+	</div>
+	<div class="columns image" style="background-image:url('images/construction1.jpg')">
+	   &nbsp;
+	</div>
+ </div>
+
+ </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </html>
