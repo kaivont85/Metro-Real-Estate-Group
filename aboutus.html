@@ -1,314 +1,217 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<!--divinectorweb.com-->
+
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>Metro Real Estate Group</title>
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<link href="css/style.css" rel="stylesheet">
-<stlye>
-    <style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Metro Real Estate Group">
+  <meta name="author" content="">
 
-	* {
-		margin: 0;
-		padding: 0;
-		font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-	}
+  <title>Metro Real Estate Group</title>
 
-	body {
-			background-image: url("images/106Ntejon.jpg");
-			background-size: cover;
-			backdrop-filter: blur(15px);
-		}
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-
-	.container{
-		text-align: center;
-	
-	}
-
-	.header{
-		padding-top: 60px;
-		color:azure;
-		font-size: 20px;
-		margin: auto;
-		line-height: 50px;
-	}
-
-	.sub-container{
-		max-width: 1200px;
-		margin: auto;
-		padding: 48px 0;
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: center;
-	}
-
-	.teams{
-		margin: 10px;
-		padding: 22px;
-		max-width: 30%;
-		cursor: pointer;
-		transition: 0.4s;
-		box-sizing: border-box;
-	}
-
-	.teams:hover{
-		background: #ddd;
-	}
-
-	.teams img{
-		width: 200px;
-		height: 300px;
-	}
-
-	.name{
-		padding: 12px;
-		font-weight: bold;
-		font-size: 16px;
-		text-transform: uppercase;
-	}
-	
-
-	.title{
-		font-style: italic;
-		font-weight: bold;
-		color:blueviolet;
-	}
-
-	.about{
-		margin: 20px 0;
-		font-weight: lighter;
-		color: black;
-	}
-	
-
-	</style>
-
-
+  <!-- Custom styles for this template -->
+  <link href="./css/index.css" rel="stylesheet">
+  <style type="text/css">
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    body::after {
+      background-image: url("./images/106Ntejon.jpg");
+      background-size: cover;
+      content: "";
+      filter: blur(15px);
+      -webkit-filter: blur(15px);
+      width: 100vw;
+      height: 100vh;
+      position: fixed;
+      z-index: -1;
+      top: 0;
+      left: 0;
+    }
+    .card-image {
+      height: 200px;
+    }
+    .card-image img {
+      object-fit: cover;
+      object-position: center -1px;
+      height: 200px;
+    }
+    .text-decoration-none:hover {
+      text-decoration: none;
+    }
+    @media screen and (min-width: 992px) {
+      main.container {
+        height: 100vh;
+      }
+    }
+    @media screen and (max-width: 450px) {
+      .card-image img {
+        object-position: center -35px;
+      }
+    }
+  </style>
 </head>
-
-<nav class="nav-area">
-	<ul>
-		<li>
-			<a href="index.html">Home</a>
-		</li>
-		<li>
-			<a href="aboutus.html">About Us</a>
-		<li>
-			<a href="coverage.html">Coverage</a>
-		</li> 
-		<li>
-			<a href="services.html">Services</a>
-			<ul>
-				<!-- <li>
-					<a href="brokerage.html">Brokerage</a>
-				<li>
-					<a href="construction.html">Construction</a>
-		</li> -->
-	</ul>
-	<li>
-		<a href="gallery.html">Gallery</a>
-	</li> 
-	<li>
-		<a href="contactus.html">Contact Us</a>
-	</li> 
-
-</nav>
-	<body>
-		<!-- <div class="container">
-			<div class="header">
-				<h1>Our Team</h1>
-		</div>
-		<div class="sub-container">
-		<div class="teams">
-			<img src="./images/dadsprofilepicture.jpg" alt="">
-			<div class="name">Matt Tolooee</div>
-			<div class="title">Employing Broker</div>
-			<div class="about">tresmreg@outlook.com <br> 719-310-5185</div>
-			<div class="button">
-				<a href="matttolooee.html">Read More</a>
-			</div>
-		</div>
-		<div class="teams">
-			<img src="./images/H52a.jpg" height="300px" alt="">
-			<div class="name">Haelee Swanson</div>
-			<div class="title">Employing Broker</div>
-			<div class="about">tresmreg@outlook.com <br> 605-842-5673</div>
-			<div class="button">
-				<a href="haeleeswanson.html">Read More</a>
-			</div>
-		</div>
-		<div class="teams">
-			<img src="./images/image002.jpg" height="300px" alt="">
-			<div class="name">Dariush Tolooee</div>
-			<div class="title">Command Center</div>
-			<div class="about">tresmreg@outlook.com <br> 719-661-0934</div>
-			<div class="button">
-				<a href="dariushtolooee.html">Read More</a>
-			</div>
-		</div>
-		<div class="teams">
-			<img src="./images/ali headshot smiling.jpg" height="300px" alt="">
-			<div class="name">Ali Tolooee</div>
-			<div class="title">Marketing and Bookkeeping</div>
-			<div class="about">tresmreg@outlook.com <br> 719-339-7410</div>
-			<div class="button">
-				<a href="allytolooee.html">Read More</a>
-			</div>
-		</div>
-	</div>
-</div> -->
-
-
-
-
-
-
-
-
-
-
-
-
-<main>
-
-
-		<div class="cards">
-			<div class="card">
-			  <img class="card__image" src="./images/dadsprofilepicture.jpg" alt="">
-			  <div class="card__content">
-				<H4>Matt Tolooee</H4>
-				<p>
-					Employing Broker
-				</p>
-				<P>
-					tresmreg@outlook.com
-				</P>
-				<P>
-					719-310-5185
-				</P>			
-			  </div>
-			  <div class="card__info">
-				
-				<div>
-				  <a href="./matttolooee.html" class="card__link">Read More</a>
-				</div>
-			  </div>
-			</div>
-			<div class="card">
-				<img class="card__image" src="./images/H52a.jpg" alt="">
-				<div class="card__content">
-				  <H4>Haelee Swanson</H4>
-				  <p>
-				   Emplying Broker
-				  </p>
-				  <p>
-				   tresmreg@outlook.com
-				  </p>
-				  <p>
-				   605-842-5673
-				  </p>
-				  
-				</div>
-				<div class="card__info">
-				  
-				  <div>
-					<a href="haeleeswanson.html" class="card__link">Read More</a>
-				  </div>
-				</div>
-			  </div>
-			<div class="card">
-			  <img class="card__image" src="./images/image002.jpg" alt="">
-			  <div class="card__content">
-				<H4>Dariush Tolooee</H4>
-				<p>
-					Command Center
-				</p>
-				<p>
-				tresmreg@outlook.com
-				</p>
-				<p>
-					719-661-0934
-				</p>
-				
-			  </div>
-			  <div class="card__info">
-				
-				<div>
-				  <a href="./dariushtolooee.html" class="card__link">Read More</a>
-				</div>
-			  </div>
-			</div>
-			<div class="card">
-			  <img class="card__image" src="./images/ali headshot.jpg" alt="">
-			  <div class="card__content">
-				<H4>Ali Tolooee</H4>
-				<p>
-				   Marketing & Bookkeeping
-				</p>
-				<p>
-				tresmreg@outlook.com
-				</p>
-				<p>
-				719-339-7410
-				</p>
-				
-			  </div>
-			  <div class="card__info">
-	
-				<div>
-				  <a href="./alitolooee.html" class="card__link">Read More</a>
-				</div>
-			  </div>
-			</div>
-			  </div>
-			</div>
-		  </div>
-
-		</main>		 
 
 <body>
 
-	
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+      aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="aboutus.html">About Us</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="coverage.html">Coverage</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="services.html">Services</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="gallery.html">Gallery</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="contactus.html">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
+  <main role="main" class="container d-flex justify-content-center align-items-center">
+    <div class="row col-12">
+      <div class="col-lg-3 col-md-6">
+        <div class="card mb-4 box-shadow">
+          <div class="card-image">
+            <img class="card-img" src="./images/dadsprofilepicture.jpg" alt="">
+          </div>
+          <div class="card-body">
+            <h4 class="card-title">Matt Tolooee</h4>
+            <div class="card-text">
+              <span>
+                Employing Broker
+              </span>
+              <br />
+              <a href="mail:tresmreg@outlook.com" class="text-dark text-decoration-none">
+                tresmreg@outlook.com
+              </a>
+              <br />
+              <a href="tel:719-310-5185" class="text-dark text-decoration-none">
+                719-310-5185
+              </a>
+            </div>
+          </div>
+          <div class="card-footer">
+            <a href="./matttolooee.html" class="">Read More</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-lg-3 col-md-6">
+        <div class="card mb-4 box-shadow">
+          <div class="card-image">
+            <img class="card-img" src="./images/H52a.jpg" alt="">
+          </div>
+          <div class="card-body">
+            <h4 class="card-title">Haelee Swanson</h4>
+            <div class="card-text">
+              <span>
+                Emplying Broker
+              </span>
+              <br />
+              <a href="mail:tresmreg@outlook.com" class="text-dark text-decoration-none">
+                tresmreg@outlook.com
+              </a>
+              <br />
+              <a href="tel:605-842-5673" class="text-dark text-decoration-none">
+                605-842-5673
+              </a>
+            </div>
+          </div>
+          <div class="card-footer">
+            <a href="./haeleeswanson.html">Read More</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-lg-3 col-md-6">
+        <div class="card mb-4 box-shadow">
+          <div class="card-image">
+            <img class="card-img" src="./images/image002.jpg" alt="">
+          </div>
+          <div class="card-body">
+            <h4 class="card-title">Dariush Tolooee</h4>
+            <div class="card-text">
+              <span>
+                Command Center
+              </span>
+              <br />
+              <a href="mail:tresmreg@outlook.com" class="text-dark text-decoration-none">
+                tresmreg@outlook.com
+              </a>
+              <br />
+              <a href="tel:719-661-0934" class="text-dark text-decoration-none">
+                719-661-0934
+              </a>
+            </div>
+          </div>
+          <div class="card-footer">
+            <a href="./dariushtolooee.html">Read More</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-lg-3 col-md-6">
+        <div class="card mb-4 box-shadow">
+          <div class="card-image">
+            <img class="card-img" src="./images/ali headshot.jpg" alt="">
+          </div>
+          <div class="card-body">
+            <h4 class="card-title">Ali Tolooee</h4>
+            <div class="card-text">
+              <span>
+                Marketing & Bookkeeping
+              </span>
+              <br />
+              <a href="mail:tresmreg@outlook.com" class="text-dark text-decoration-none">
+                tresmreg@outlook.com
+              </a>
+              <br />
+              <a href="tel:719-339-7410" class="text-dark text-decoration-none">
+                719-339-7410
+              </a>
+            </div>
+          </div>
+          <div class="card-footer">
+            <a href="./alitolooee.html">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
 
-
-
-
-	
-	<footer>
-
-	</footer>
-
+  <!-- Bootstrap core JavaScript
+    ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
 </body>
 
-
-
-
-</html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</body>
 </html>
