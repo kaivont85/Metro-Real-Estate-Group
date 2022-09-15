@@ -1,8 +1,18 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
 
 
+main {
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
 body {
-	margin: 0;
+    flex: auto;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-shrink: inherit;
+    flex-grow: inherit;
+	margin: 0 auto;
 	padding: 0;
 	font-family: poppins;
 	/* background-image: url('/Metro-Real-Estate-Group/images/106Ntejon.jpg'); */
