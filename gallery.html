@@ -6,11 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="Metro Real Estate Group">
   <meta name="author" content="">
-  
+
 
   <title>Metro Real Estate Group</title>
 
-  
+
 
   <!-- Bootstrap core CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
@@ -47,23 +47,38 @@
     .text-decoration-none:hover {
       text-decoration: none;
     }
+
     .site-card {
       max-width: 400px;
+      position: relative;
     }
+
     .site-card .card:hover {
-			background-color: black;
-			color: white;
-			transition: .5s;
-			cursor: pointer;
-		}
-    .site-card .card:hover .btn-website{
-			background-color: white;
-			color: black;
-			transition: .5s;
-			cursor: pointer;
-		}
+      background-color: black;
+      color: white;
+      transition: .5s;
+      cursor: pointer;
+    }
+
+    .site-card .card:hover .btn-website {
+      background-color: white;
+      color: black;
+      transition: .5s;
+      cursor: pointer;
+    }
+
     .site-card .card {
       box-shadow: 2px 2px 20px black;
+    }
+
+    .gallery-type {
+      position: absolute;
+      right: 3px;
+      top: 3px;
+      border: 1px solid yellow;
+    }
+    #gallery-type-group button {
+      min-width: 200px;
     }
   </style>
 </head>
@@ -98,145 +113,56 @@
       </ul>
     </div>
   </nav>
-
-  <main class="container col-12 d-flex flex-wrap" style="row-gap: 20px;">
+  <main id="gallery-container" class="container col-12 d-flex flex-wrap" style="row-gap: 20px;">
     <div class="site-card col-lg-3 col-md-6 col-sm-6">
       <div class="card shadow-sm">
         <div class="card-image">
           <img src="./images/rowley2.jpg" alt="10970 Rowley Drive">
         </div>
         <div class="card-body">
+
           <h4 class="card-title">
             10970 Rowley Drive
           </h4>
           <div class="d-flex justify-content-between align-items-center">
-            <a target="_blank" href="https://10970rowleydrive.com/" class="btn btn-sm btn-outline-secondary btn-website">Visit Website</a>
+            <a target="_blank" href="https://10970rowleydrive.com/"
+              class="btn btn-sm btn-outline-secondary btn-website">Visit Website</a>
           </div>
         </div>
       </div>
     </div>
-
-
-    <div class="site-card col-lg-3 col-md-6 col-sm-6">
-      <div class="card shadow-sm">
-        <div class="card-image">
-          <img src="./images/Whileway.jpg" alt="3112 W Whileway Circle">
-        </div>
-        <div class="card-body">
-          <h4 class="card-title">
-            3112 W Whileway Circle
-          </h4>
-          <div class="d-flex justify-content-between align-items-center">
-            <a target="_blank" href="https://3112wwhileawaycircle.com/" class="btn btn-sm btn-outline-secondary btn-website">Visit Website</a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-    <div class="site-card col-lg-3 col-md-6 col-sm-6">
-      <div class="card shadow-sm">
-        <div class="card-image">
-          <img src="./images/BarrelRace.jpg" alt="6578 Barrel Race Drive">
-        </div>
-        <div class="card-body">
-          <h4 class="card-title">
-            6578 Barrel Race Drive
-          </h4>
-          <div class="d-flex justify-content-between align-items-center">
-            <a target="_blank" href="https://6578barrelracedrive.com/" class="btn btn-sm btn-outline-secondary btn-website">Visit Website</a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-    <div class="site-card col-lg-3 col-md-6 col-sm-6">
-      <div class="card shadow-sm">
-        <div class="card-image">
-          <img src="./images/SingleLeaf.jpg" alt="13855 Single Leaf Court">
-        </div>
-        <div class="card-body">
-          <h4 class="card-title">
-            13855 Single Leaf Court
-          </h4>
-          <div class="d-flex justify-content-between align-items-center">
-            <a target="_blank" href="https://13855singleleafct.com/" class="btn btn-sm btn-outline-secondary btn-website">Visit Website</a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-    <div class="site-card col-lg-3 col-md-6 col-sm-6">
-      <div class="card shadow-sm">
-        <div class="card-image">
-          <img src="./images/Prospect.jpeg" alt="424 N Prospect Street">
-        </div>
-        <div class="card-body">
-          <h4 class="card-title">
-            424 N Prospect Street
-          </h4>
-          <div class="d-flex justify-content-between align-items-center">
-            <a target="_blank" href="https://424nprospectstreet.com/" class="btn btn-sm btn-outline-secondary btn-website">Visit Website</a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-    <div class="site-card col-lg-3 col-md-6 col-sm-6">
-      <div class="card shadow-sm">
-        <div class="card-image">
-          <img src="./images/Heathland.jpeg" alt="5738 Heathland Terrace">
-        </div>
-        <div class="card-body">
-          <h4 class="card-title">
-            5738 Heathland Terrace
-          </h4>
-          <div class="d-flex justify-content-between align-items-center">
-            <a target="_blank" href="https://5738heathlandterrace.com/" class="btn btn-sm btn-outline-secondary btn-website">Visit Website</a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-    <div class="site-card col-lg-3 col-md-6 col-sm-6">
-      <div class="card shadow-sm">
-        <div class="card-image">
-          <img src="./images/Otowi.jpeg" alt="39 Otowi Drive">
-        </div>
-        <div class="card-body">
-          <h4 class="card-title">
-            39 Otowi Drive
-          </h4>
-          <div class="d-flex justify-content-between align-items-center">
-            <a target="_blank" href="https://39otowidrive.com/" class="btn btn-sm btn-outline-secondary btn-website">Visit Website</a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-    <div class="site-card col-lg-3 col-md-6 col-sm-6">
-      <div class="card shadow-sm">
-        <div class="card-image">
-          <img src="./images/Ellston.jpg" alt="3823 Ellston Place">
-        </div>
-        <div class="card-body">
-          <h4 class="card-title">
-            3823 Ellston Place
-          </h4>
-          <div class="d-flex justify-content-between align-items-center">
-            <a target="_blank" href="https://3823ellstonplace.com/" class="btn btn-sm btn-outline-secondary btn-website">Visit Website</a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
   </main>
+
+  <script src="./gallery.js"></script>
+  <script>
+    function loadCards() {
+      const galleryContainer = document.querySelector('#gallery-container');
+      const typeBtnGroup = document.querySelector("#gallery-type-group");
+      let cardElements = '';
+      galleryList.forEach(function (gallery) {
+        cardElements += `<div class="site-card col-lg-3 col-md-6 col-sm-6">
+                <div class="card shadow-sm">
+                  <span class="gallery-type badge badge-danger">${gallery.type}</span>
+                  <div class="card-image">
+                    <img src="${gallery.image}" alt="${gallery.title}">
+                  </div>
+                  <div class="card-body">
+                    <h4 class="card-title">
+                      ${gallery.title}
+                    </h4>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <a target="_blank" href="${gallery.website}"
+                        class="btn btn-sm btn-outline-secondary btn-website">Visit Website</a>
+                    </div>
+                  </div>
+                </div>
+              </div>`;
+      });
+      galleryContainer.innerHTML = cardElements;
+    }
+    loadCards();
+
+  </script>
 
   <!-- Bootstrap core JavaScript
     ================================================== -->
