@@ -19,13 +19,27 @@
   <!-- Custom styles for this template -->
   <link href="./css/index.css" rel="stylesheet">
   <style type="text/css">
-    body {
+body::after {
+      background-image: url("./images/106Ntejon.jpg");
+      background-size: cover;
+      content: "";
+      filter: blur(15px);
+      -webkit-filter: blur(15px);
+      width: 100vw;
+      height: 100vh;
+      position: fixed;
+      z-index: -1;
+      top: 0;
+      left: 0;
+    }
+
+    /* body {
       background-image: url("./images/106Ntejon.jpg");
       background-size: cover;
       backdrop-filter: blur(15px);
       margin: 0;
       padding: 0;
-    }
+    } */
 
     main {
       padding: 100px;
