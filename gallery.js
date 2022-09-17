@@ -1,7 +1,7 @@
 const galleryList = [{
       image: "./images/rowley2.jpg",
       title: "10970 Rowley Drive",
-      type: "Residential",
+      type: "Residential Brokerage",
       website: "https://10970rowleydrive.com/"
     },
     {
@@ -25,24 +25,24 @@ const galleryList = [{
     {
       image: "./images/Prospect.jpeg",
       title: "424 N Prospect Street",
-      type: "Flips",
+      type: "Brokerage Remodels",
       website: "https://424nprospectstreet.com/"
     },
     {
       image: "./images/Heathland.jpeg",
       title: "5738 Heathland Terrace",
-      type: "Flips",
+      type: "Remodels",
       website: "https://5738heathlandterrace.com/"
     },
     {
       image: "./images/Otowi.jpeg",
       title: "39 Otowi Drive",
-      type: "Flips",
+      type: "Remodels",
       website: "https://39otowidrive.com/"
     },
     {
       image: "./images/Ellston.jpg",
       title: "3823 Ellston Place",
-      type: "Flips",
+      type: "Remodels",
       website: "https://3823ellstonplace.com/"
     }]
