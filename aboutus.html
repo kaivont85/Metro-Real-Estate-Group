@@ -24,12 +24,12 @@
       box-shadow: 0px 0px 3px #0000008c;
     }
     .card-image {
-      height: 200px;
+      height: 350px;
     }
     .card-image img {
       object-fit: cover;
       object-position: center -1px;
-      height: 200px;
+      height: 350px;
     }
     .text-decoration-none:hover {
       text-decoration: none;
@@ -37,6 +37,14 @@
     @media screen and (min-width: 992px) {
       main.container {
         height: 100vh;
+      }
+    }
+    @media screen and (max-width: 991px) {
+      .card-image .person1 {
+        object-position: center -30px;
+      }
+      .card-image .person4 {
+        object-position: center -50px;
       }
     }
     @media screen and (max-width: 766px){
@@ -102,7 +110,7 @@
           <div class="col-lg-3 col-md-6">
             <div class="card mb-4 box-shadow mx-auto">
               <div class="card-image">
-                <img class="card-img" src="./images/dadsprofilepicture.jpg" alt="">
+                <img class="card-img person1" src="./images/dadsprofilepicture.jpg" alt="">
               </div>
               <div class="card-body">
                 <h4 class="card-title">Matt Tolooee</h4>
@@ -129,7 +137,7 @@
           <div class="col-lg-3 col-md-6">
             <div class="card mb-4 box-shadow mx-auto">
               <div class="card-image">
-                <img class="card-img" src="./images/H52a.jpg" alt="">
+                <img class="card-img person2" src="./images/H52a.jpg" alt="">
               </div>
               <div class="card-body">
                 <h4 class="card-title">Haelee Swanson</h4>
@@ -156,7 +164,7 @@
           <div class="col-lg-3 col-md-6">
             <div class="card mb-4 box-shadow mx-auto">
               <div class="card-image">
-                <img class="card-img" src="./images/image002.jpg" alt="">
+                <img class="card-img person3" src="./images/image002.jpg" alt="">
               </div>
               <div class="card-body">
                 <h4 class="card-title">Dariush Tolooee</h4>
@@ -183,7 +191,7 @@
           <div class="col-lg-3 col-md-6">
             <div class="card mb-4 box-shadow mx-auto">
               <div class="card-image">
-                <img class="card-img" src="./images/ali headshot.jpg" alt="">
+                <img class="card-img person4" src="./images/ali headshot.jpg" alt="">
               </div>
               <div class="card-body">
                 <h4 class="card-title">Ali Tolooee</h4>
