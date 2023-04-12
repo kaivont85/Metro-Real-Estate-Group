@@ -29,6 +29,54 @@ const galleryList = [{
       website: "https://424nprospectstreet.com/"
     },
     {
+      image: "./images/Pleasant.jpg",
+      title: "509 Pleasant Street",
+      type: "Brokerage Remodels",
+      website: "https://509pleasantstreet.com/"
+    },
+    {
+      image: "./images/Mineola.jpeg",
+      title: "1784 Mineola Street",
+      type: "Brokerage Remodels",
+      website: "https://1784mineolastreet.com/"
+    },
+    {
+      image: "./images/Monica.JPG",
+      title: "4585 Monica Drive",
+      type: "Brokerage Remodels",
+      website: "https://424nprospectstreet.com/"
+    },
+    {
+      image: "./images/Monroe.jpeg",
+      title: "226 E Monroe Street",
+      type: "Brokerage Remodels",
+      website: "https://226emonroestreet.com/"
+    },
+    {
+      image: "./images/Wilks.JPG",
+      title: "1433 Wilks Place",
+      type: "Brokerage Remodels",
+      website: "https://1433wilksplace.com/"
+    },
+    {
+      image: "./images/Morely.JPG",
+      title: "4098 Morley Drive",
+      type: "Brokerage Remodels",
+      website: "https://4098morleydrive.com/"
+    },
+    {
+      image: "./images/Farris.jpg",
+      title: "5047 Farris Creek",
+      type: "Brokerage Remodels",
+      website: "https://5047farriscreek.com/"
+    },
+    {
+      image: "./images/Towner.JPG",
+      title: "8644 Towner Avenue",
+      type: "Brokerage Remodels",
+      website: "https://8644towneravenue.com/"
+    },
+    {
       image: "./images/Heathland.jpeg",
       title: "5738 Heathland Terrace",
       type: "Brokerage Remodels",
