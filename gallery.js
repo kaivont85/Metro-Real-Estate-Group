@@ -23,6 +23,12 @@ const galleryList = [{
       website: "https://13855singleleafct.com/"
     },
     {
+      image: "./images/SaddleHorn.jpg",
+      title: "5427 Saddle Horn Avenue",
+      type: "Brokerage Residential",
+      website: "https://5427saddlehornavenue.com/"
+    },
+    {
       image: "./images/Prospect.jpeg",
       title: "424 N Prospect Street",
       type: "Brokerage Remodels",
