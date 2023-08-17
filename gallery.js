@@ -2,101 +2,101 @@ const galleryList = [{
       image: "./images/rowley2.jpg",
       title: "10970 Rowley Drive",
       type: "Brokerage Residential",
-      website: "https://10970rowleydrive.com/"
+      website: "contactus.html"
     },
     {
       image: "./images/Whileway.jpg",
       title: "3112 W Whileway Circle",
       type: "Brokerage Residential",
-      website: "https://3112wwhileawaycircle.com/"
+      website: "contactus.html"
     },
     {
       image: "./images/BarrelRace.jpg",
       title: "6578 Barrel Race Drive",
       type: "Brokerage Residential",
-      website: "https://6578barrelracedrive.com/"
+      website: "contactus.html"
     },
     {
       image: "./images/SingleLeaf.jpg",
       title: "13855 Single Leaf Court",
       type: "Brokerage Residential",
-      website: "https://13855singleleafct.com/"
+      website: "contactus.html"
     },
     {
       image: "./images/SaddleHorn.jpg",
       title: "5427 Saddle Horn Avenue",
       type: "Brokerage Residential",
-      website: "https://5427saddlehornavenue.com/"
+      website: "contactus.html"
     },
     {
       image: "./images/Prospect.jpeg",
       title: "424 N Prospect Street",
       type: "Brokerage Remodels",
-      website: "https://424nprospectstreet.com/"
+      website: "contactus.html"
     },
     {
       image: "./images/Pleasant.jpg",
       title: "509 Pleasant Street",
       type: "Brokerage Remodels",
-      website: "https://509pleasantstreet.com/"
+      website: "contactus.html"
     },
     {
       image: "./images/Mineola.jpeg",
       title: "1784 Mineola Street",
       type: "Brokerage Remodels",
-      website: "https://1784mineolastreet.com/"
+      website: "contactus.html"
     },
     {
       image: "./images/Monica.JPG",
       title: "4585 Monica Drive",
       type: "Brokerage Remodels",
-      website: "https://424nprospectstreet.com/"
+      website: "contactus.html"
     },
     {
       image: "./images/Monroe.jpeg",
       title: "226 E Monroe Street",
       type: "Brokerage Remodels",
-      website: "https://226emonroestreet.com/"
+      website: "contactus.html"
     },
     {
       image: "./images/Wilks.JPG",
       title: "1433 Wilks Place",
       type: "Brokerage Remodels",
-      website: "https://1433wilksplace.com/"
+      website: "contactus.html"
     },
     {
       image: "./images/Morely.JPG",
       title: "4098 Morley Drive",
       type: "Brokerage Remodels",
-      website: "https://4098morleydrive.com/"
+      website: "contactus.html"
     },
     {
       image: "./images/Farris.jpg",
       title: "5047 Farris Creek",
       type: "Brokerage Remodels",
-      website: "https://5047farriscreek.com/"
+      website: "contactus.html"
     },
     {
       image: "./images/Towner.JPG",
       title: "8644 Towner Avenue",
       type: "Brokerage Remodels",
-      website: "https://8644towneravenue.com/"
+      website: "contactus.html"
     },
     {
       image: "./images/Heathland.jpeg",
       title: "5738 Heathland Terrace",
       type: "Brokerage Remodels",
-      website: "https://5738heathlandterrace.com/"
+      website: "contactus.html"
     },
     {
       image: "./images/Otowi.jpeg",
       title: "39 Otowi Drive",
       type: "Brokerage Remodels",
-      website: "https://39otowidrive.com/"
+      website: "contactus.html"
     },
     {
       image: "./images/Ellston.jpg",
       title: "3823 Ellston Place",
       type: "Brokerage Remodels",
-      website: "https://3823ellstonplace.com/"
+      website: "contactus.html"
     }]
