@@ -14,19 +14,19 @@ const galleryList = [{
       image: "./images/BarrelRace.jpg",
       title: "6578 Barrel Race Drive",
       type: "Brokerage Residential",
-      website: "contactus.html"
+      website: "https://6578barrelracedrive.com/"
     },
     {
       image: "./images/SingleLeaf.jpg",
       title: "13855 Single Leaf Court",
       type: "Brokerage Residential",
-      website: "contactus.html"
+      website: "https://13855singleleafct.com/"
     },
     {
       image: "./images/SaddleHorn.jpg",
       title: "5427 Saddle Horn Avenue",
       type: "Brokerage Residential",
-      website: "contactus.html"
+      website: "https://5427saddlehornavenue.com/"
     },
     {
       image: "./images/Prospect.jpeg",
@@ -56,7 +56,7 @@ const galleryList = [{
       image: "./images/Monroe.jpeg",
       title: "226 E Monroe Street",
       type: "Brokerage Remodels",
-      website: "contactus.html"
+      website: "https://226emonroestreet.com/"
     },
     {
       image: "./images/Wilks.JPG",
@@ -86,13 +86,13 @@ const galleryList = [{
       image: "./images/Heathland.jpeg",
       title: "5738 Heathland Terrace",
       type: "Brokerage Remodels",
-      website: "contactus.html"
+      website: "https://5738heathlandterrace.com/"
     },
     {
       image: "./images/Otowi.jpeg",
       title: "39 Otowi Drive",
       type: "Brokerage Remodels",
-      website: "contactus.html"
+      website: "https://39otowidrive.com/"
     },
     {
       image: "./images/Ellston.jpg",
